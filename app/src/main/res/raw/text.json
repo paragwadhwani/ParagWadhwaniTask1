@@ -1,0 +1,215 @@
+{
+  "singleBanner": "https://image.shutterstock.com/image-vector/brush-sale-banner-vector-260nw-1090866878.jpg",
+
+  "banner": [
+    {
+      "productImage": "https://freepngimg.com/thumb/doraemon/35248-8-doraemon.png"
+    },
+    {
+      "productImage": "https://i.pinimg.com/736x/ea/69/dc/ea69dc6226e72a33f82d3add20b470df.jpg"
+    },
+    {
+      "productImage": "https://www.pngplay.com/wp-content/uploads/2/Superman-PNG-Images-HD.png"
+    },
+    {
+      "productImage": "https:\/\/c4.wallpaperflare.com\/wallpaper\/113\/82\/562\/minions-despicable-me-3-2017-movies-animated-movies-wallpaper-preview.jpg"
+    },
+    {
+      "productImage": "https://www.pngplay.com/wp-content/uploads/9/Iron-Man-Transparent-Images.png"
+    },
+    {
+      "productImage": "https://freepngimg.com/thumb/doraemon/71299-nobi-youtube-nobita-television-doraemon-free-photo-png-thumb.png"
+    }
+  ],
+  "productList": [
+    {
+      "productID": "1",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/51GyUUKe-0L.jpg",
+      "productName": "Fortune Soyabean Oil",
+      "type": [
+        {
+          "quantity": "1 Litre",
+          "price": "150.00",
+          "offerPrice": "145.00",
+          "discount": "5.00"
+        },
+        {
+          "quantity": "2 Litre",
+          "price": "300.00",
+          "offerPrice": "270.00",
+          "discount": "30.00"
+        },
+        {
+          "quantity": "3 Litre",
+          "price": "450.00",
+          "offerPrice": "400.00",
+          "discount": "50.00"
+        }
+      ],
+      "isVeg": true
+    },
+    {
+      "productID": "2",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/81VIi38z2xL._SY550_.jpg",
+      "productName": "Red Gram",
+      "type": [
+        {
+          "quantity": "1 KG",
+          "price": "100.00",
+          "offerPrice": "80.00",
+          "discount": "20.00"
+        }
+      ],
+      "isVeg": false
+    },
+    {
+      "productID": "3",
+      "productImage": "https:\/\/d5prkkjyl9azo.cloudfront.net\/media\/catalog\/product\/cache\/1\/image\/9df78eab33525d08d6e5fb8d27136e95\/i\/n\/india_gate_dubar_basmati_4.jpg",
+      "productName": "India Gate Basmati Rice",
+      "type": [
+        {
+          "quantity": "10 KG",
+          "price": "560.00",
+          "offerPrice": "549.00",
+          "discount": "11.00"
+        }
+      ],
+      "isVeg": true
+    },
+    {
+      "productID": "4",
+      "productImage": "https:\/\/www.bigbasket.com\/media\/uploads\/p\/xxl\/1207396_3-cadbury-oreo-creme-biscuit-vanilla-family-pack-300-g-pack-of-3.jpg",
+      "productName": "OREO Biscute",
+      "type": [
+        {
+          "quantity": "10 pkt",
+          "price": "100.00",
+          "offerPrice": "94.50",
+          "discount": "5.50"
+        },
+        {
+          "quantity": "150 pkt",
+          "price": "500.00",
+          "offerPrice": "94.50",
+          "discount": "5.50"
+        },
+        {
+          "quantity": "250 pkt",
+          "price": "700.00",
+          "offerPrice": "94.50",
+          "discount": "5.50"
+        },
+        {
+          "quantity": "200 pkt",
+          "price": "1000.00",
+          "offerPrice": "900.50",
+          "discount": "50.50"
+        }
+      ],
+      "isVeg": true
+    }
+  ],
+  "GridCount": "4",
+  "GridList": [
+    {
+      "productID": "1",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/51GyUUKe-0L.jpg",
+      "productName": "Fortune Soyabean Oil"
+    },
+    {
+      "productID": "2",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/81VIi38z2xL._SY550_.jpg",
+      "productName": "Red Gram"
+    },
+    {
+      "productID": "2",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/81VIi38z2xL._SY550_.jpg",
+      "productName": "Red Gram"
+    },
+    {
+      "productID": "3",
+      "productImage": "https:\/\/d5prkkjyl9azo.cloudfront.net\/media\/catalog\/product\/cache\/1\/image\/9df78eab33525d08d6e5fb8d27136e95\/i\/n\/india_gate_dubar_basmati_4.jpg",
+      "productName": "India Gate Basmati Rice"
+    },
+    {
+      "productID": "4",
+      "productImage": "https:\/\/www.bigbasket.com\/media\/uploads\/p\/xxl\/1207396_3-cadbury-oreo-creme-biscuit-vanilla-family-pack-300-g-pack-of-3.jpg",
+      "productName": "OREO Biscute"
+    },
+    {
+      "productID": "5",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/51GyUUKe-0L.jpg",
+      "productName": "Fortune Soyabean Oil"
+    },
+    {
+      "productID": "3",
+      "productImage": "https:\/\/d5prkkjyl9azo.cloudfront.net\/media\/catalog\/product\/cache\/1\/image\/9df78eab33525d08d6e5fb8d27136e95\/i\/n\/india_gate_dubar_basmati_4.jpg",
+      "productName": "India Gate Basmati Rice"
+    },
+    {
+      "productID": "4",
+      "productImage": "https:\/\/www.bigbasket.com\/media\/uploads\/p\/xxl\/1207396_3-cadbury-oreo-creme-biscuit-vanilla-family-pack-300-g-pack-of-3.jpg",
+      "productName": "OREO Biscute"
+    },
+    {
+      "productID": "5",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/51GyUUKe-0L.jpg",
+      "productName": "Fortune Soyabean Oil"
+    },
+    {
+      "productID": "6",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/81VIi38z2xL._SY550_.jpg",
+      "productName": "Red Gram"
+    },
+    {
+      "productID": "7",
+      "productImage": "https:\/\/d5prkkjyl9azo.cloudfront.net\/media\/catalog\/product\/cache\/1\/image\/9df78eab33525d08d6e5fb8d27136e95\/i\/n\/india_gate_dubar_basmati_4.jpg",
+      "productName": "India Gate Basmati Rice"
+    },
+    {
+      "productID": "2",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/81VIi38z2xL._SY550_.jpg",
+      "productName": "Red Gram"
+    },
+    {
+      "productID": "3",
+      "productImage": "https:\/\/d5prkkjyl9azo.cloudfront.net\/media\/catalog\/product\/cache\/1\/image\/9df78eab33525d08d6e5fb8d27136e95\/i\/n\/india_gate_dubar_basmati_4.jpg",
+      "productName": "India Gate Basmati Rice"
+    },
+    {
+      "productID": "4",
+      "productImage": "https:\/\/www.bigbasket.com\/media\/uploads\/p\/xxl\/1207396_3-cadbury-oreo-creme-biscuit-vanilla-family-pack-300-g-pack-of-3.jpg",
+      "productName": "OREO Biscute"
+    },
+    {
+      "productID": "5",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/51GyUUKe-0L.jpg",
+      "productName": "Fortune Soyabean Oil"
+    },
+    {
+      "productID": "8",
+      "productImage": "https:\/\/www.bigbasket.com\/media\/uploads\/p\/xxl\/1207396_3-cadbury-oreo-creme-biscuit-vanilla-family-pack-300-g-pack-of-3.jpg",
+      "productName": "OREO Biscute"
+    },
+    {
+      "productID": "9",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/51GyUUKe-0L.jpg",
+      "productName": "Fortune Soyabean Oil"
+    },
+    {
+      "productID": "10",
+      "productImage": "https:\/\/m.media-amazon.com\/images\/I\/81VIi38z2xL._SY550_.jpg",
+      "productName": "Red Gram"
+    },
+    {
+      "productID": "11",
+      "productImage": "https:\/\/d5prkkjyl9azo.cloudfront.net\/media\/catalog\/product\/cache\/1\/image\/9df78eab33525d08d6e5fb8d27136e95\/i\/n\/india_gate_dubar_basmati_4.jpg",
+      "productName": "India Gate Basmati Rice"
+    },
+    {
+      "productID": "12",
+      "productImage": "https:\/\/www.bigbasket.com\/media\/uploads\/p\/xxl\/1207396_3-cadbury-oreo-creme-biscuit-vanilla-family-pack-300-g-pack-of-3.jpg",
+      "productName": "OREO Biscute"
+    }
+  ]
+}
