@@ -2,6 +2,8 @@ package com.pw.parag;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.lifecycle.LifecycleOwner;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -12,6 +14,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -22,6 +25,10 @@ import com.pw.parag.Adapter.ProductListAdapter;
 import com.pw.parag.Model.Banner;
 import com.pw.parag.Model.Grids;
 import com.pw.parag.Model.Products;
+import com.skydoves.balloon.ArrowOrientation;
+import com.skydoves.balloon.Balloon;
+import com.skydoves.balloon.BalloonAnimation;
+import com.skydoves.balloon.BalloonSizeSpec;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -80,6 +87,27 @@ public class MainActivity extends AppCompatActivity {
         rvBanner.setHasFixedSize(false);
         rvBanner.setNestedScrollingEnabled(false);
         rvBanner.setAdapter(bannerAdapter);
+
+        fb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Balloon ballon = new Balloon.Builder(MainActivity.this)
+                        .setLayout(R.layout.layout_info)
+                        .setArrowSize(10)
+                        .setArrowColor(ContextCompat.getColor(MainActivity.this, R.color.pink))
+                        .setArrowOrientation(ArrowOrientation.RIGHT)
+                        .setArrowPosition(0.5f)
+                        .setWidthRatio(0.80f)
+                        .setHeight(BalloonSizeSpec.WRAP)
+                        .setCornerRadius(4f)
+                        .setBackgroundColor(ContextCompat.getColor(MainActivity.this, R.color.white))
+                        .setBalloonAnimation(BalloonAnimation.CIRCULAR)
+                        .setLifecycleOwner((LifecycleOwner) MainActivity.this)
+                        .build();
+
+                ballon.show(((RelativeLayout)findViewById(R.id.rl)));
+            }
+        });
 
         getListData();
     }
